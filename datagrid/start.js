@@ -21,9 +21,8 @@ const data = [
       engine: HyperFormula,
     },
     colHeaders: ['Qty', 'Unit price', 'Discount', 'Freight', 'Total due (fx)'],
-    fixedRowsBottom: 2,
+    //fixedRowsBottom: 2,
     stretchH: 'all',
-    height: 286,
+    //height: 286,
     licenseKey: 'non-commercial-and-evaluation'
   });
-  
