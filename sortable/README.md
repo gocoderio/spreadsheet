@@ -1,3 +1,3 @@
 Sortable table columns
 
-<div id="example"></div>
+<div id="example1"></div>

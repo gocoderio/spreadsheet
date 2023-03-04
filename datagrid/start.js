@@ -1,3 +1,4 @@
+document.querySelector("#example1").innerHTML = ""
 const data = [
     ['150', '643', '0.32', '11', '=A1*(B1*C1)+D1'],
     ['172', '474', '0.51', '11', '=A2*(B2*C2)+D2'],

@@ -1,3 +1,6 @@
+document.querySelector("#example1").innerHTML = ""
+document.querySelector("#example2").innerHTML = ""
+
 const data1 = [
   ['10.26', null, 'Sum', '=SUM(A:A)'],
   ['20.12', null, 'Average', '=AVERAGE(A:A)'],
