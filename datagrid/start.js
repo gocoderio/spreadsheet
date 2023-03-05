@@ -1,4 +1,6 @@
 document.querySelector("#example1").innerHTML = ""
+const container = document.querySelector('#example1');
+
 const data = [
     ['150', '643', '0.32', '11', '=A1*(B1*C1)+D1'],
     ['172', '474', '0.51', '11', '=A2*(B2*C2)+D2'],
@@ -14,7 +16,6 @@ const data = [
     ['=SUM(A1:A10)', '=AVERAGE(B1:B10)', '=AVERAGE(C1:C10)', '=SUM(D1:D10)', '=SUM(E1:E10)']
   ];
   
-  const container = document.querySelector('#example1');
   const hot = new Handsontable(container, {
     data: data,
     formulas: {

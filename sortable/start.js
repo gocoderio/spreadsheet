@@ -1,5 +1,6 @@
 document.querySelector("#example1").innerHTML = ""
 const container = document.querySelector('#example1');
+
 const hot = new Handsontable(container, {
   data: [
     ['Tesla', 'Model 3', 'BlueStar', 'USA', '★★★★'],

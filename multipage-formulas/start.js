@@ -1,5 +1,7 @@
 document.querySelector("#example1").innerHTML = ""
 document.querySelector("#example2").innerHTML = ""
+const container1 = document.querySelector('#example1');
+const container2 = document.querySelector('#example2');
 
 const data1 = [
   ['10.26', null, 'Sum', '=SUM(A:A)'],
@@ -24,7 +26,6 @@ const hyperformulaInstance = HyperFormula.buildEmpty({
   licenseKey: 'internal-use-in-handsontable',
 });
 
-const container1 = document.querySelector('#example1');
 new Handsontable(container1, {
   data: data1,
   colHeaders: true,
@@ -37,7 +38,6 @@ new Handsontable(container1, {
   licenseKey: 'non-commercial-and-evaluation'
 });
 
-const container2 = document.querySelector('#example2');
 new Handsontable(container2, {
   data: data2,
   colHeaders: true,
