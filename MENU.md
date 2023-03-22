@@ -3,13 +3,13 @@
 <span>Welcome to the spreadsheets demo</span>
                     <ul>
                         <li >
-                            <a id="home/src/github.com/gocoderpro/spreadsheet/datagrid" onclick="pathOpen(this.id)">datagrid</a>
+                            <a id="home/src/github.com/gocoderio/spreadsheet/datagrid" onclick="pathOpen(this.id)">datagrid</a>
                         </li>
 						<li>
-                            <a id="home/src/github.com/gocoderpro/spreadsheet/multipage-formulas" onclick="pathOpen(this.id)">multipage-formulas</a>
+                            <a id="home/src/github.com/gocoderio/spreadsheet/multipage-formulas" onclick="pathOpen(this.id)">multipage-formulas</a>
                         </li>
 						<li>
-                            <a id="home/src/github.com/gocoderpro/spreadsheet/sortable" onclick="pathOpen(this.id)">sortable</a>
+                            <a id="home/src/github.com/gocoderio/spreadsheet/sortable" onclick="pathOpen(this.id)">sortable</a>
                         </li>
                     </ul>
                     
